@@ -1,0 +1,255 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    /* background-color:#fff; */
+    background-color:#7395AE;
+    /* background-color:#fff; */
+  }
+
+  div.wrapper {
+    background-color:#7395AE;
+    /* background-color: #fff; */
+    overflow:auto;
+}
+
+
+p {
+    margin-left:35px;
+}
+
+h1,h2,h3 {
+    margin-left:35px;  
+}
+
+.banner h1 {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+/* main {
+    float: left;
+    width: 40%;
+} */
+
+
+
+img.myLogo {
+    height: 75px;
+
+}
+
+.mainContent {
+    margin-left: 50px;
+    margin-top: 50px;
+    text-align: center;
+    width: 40%;
+    float: left;
+}
+
+.mainContent h1, .mainContent h2, .mainContent p {
+    margin-bottom: 10px;
+}
+
+
+.mainPic {
+    width: 50%;
+    float: right;
+    margin: 30px;
+}
+
+.thank {
+    
+    /* text-decoration: underline; */
+    /* color: red; */
+    margin: auto;
+    width: 80%;
+    /* height: 300px; */
+    padding: 30px 0px;
+}
+
+.thank h2 {
+    padding-bottom: 10px;
+}
+
+aside h3 {
+    margin-left: 0px;
+}
+
+.god {
+    max-width: 100%; 
+}
+
+.godList {
+    padding: 5px;
+    margin: 10px;
+    list-style-type: none;
+}
+
+.godPage {
+    margin: 20px;
+}
+
+.godName, .godOrigin {
+    margin-left: 20px;
+    margin-bottom: 5px;
+    list-style-type: none;
+
+}
+
+.godDescr {
+    margin: 20px;
+
+}
+
+.godPic {
+    float: right;
+    margin-top: 20px;
+    width:320px
+}
+
+.goBack {
+    margin-left: 20px;
+    margin-bottom: 20px;
+}
+
+.aboutHeader {
+    margin-top: 30px;
+    margin-bottom: 20px;
+}
+
+.register {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.button {
+    display: block;
+    margin-bottom: 10px;
+}
+
+.reset {
+    display: block;
+}
+
+.center {
+    text-align: center;
+    /* box-sizing: border-box; */
+    margin-bottom: 20px;
+
+}
+
+.center a {
+    border: 2px solid #5D5C61;
+    padding: 5px;
+    text-decoration: none;
+    font-weight: bold;
+    color: black;
+}
+
+.center a:hover {
+    background-color: #557A95;
+}
+
+.login {
+    text-align: center;
+    margin-top: 20px;
+}
+
+
+.success {
+    position:absolute;
+    top: 50px;
+    left: 5px;
+    border: 2px solid black;
+    padding: 5px;
+}
+
+.welcome-logout {
+    position:absolute;
+    top: 10px;
+    right: 175px;
+    border: 2px solid black;
+    padding: 5px;
+    text-align: center;
+}
+
+.logout-button {
+    text-align: center;
+}
+
+h1.myheader {
+    text-align: center;
+    margin: 20px 0px;
+    color: #557A95;
+}
+
+.aboutPic {
+    display: block;
+    margin: 10px auto;;
+    
+}
+
+
+footer {
+    clear: both;
+    text-align:center;
+    background-color: #557A95;
+    /* background-color: crimson; */
+    padding-bottom: 20px;
+    padding-top: 20px;
+    
+}
+
+footer p {
+    display: inline;
+}
+
+
+
+
+/* START DESKTOP - RESPONSIVE RULES */
+
+@media all and (min-width:1400px) {
+    
+    div.wrapper {
+        /* background-color:#778899; */
+        background-color:#ffffff;
+        width:85%;
+        margin:auto;
+    }
+
+}
+    
+
+/* END DESKTOP - RESPONSIVE RULES */
+
+
+
+
+/* START TABLET - RESPONSIVE RULES */
+
+@media all and (min-width:501px) and (max-width:1399px) {
+    div.wrapper {
+        background-color:cadetblue;
+        width:90%;
+        margin:auto;
+        
+    }
+    
+}
+
+/* END TABLET - RESPONSIVE RULES */
+
+
+
+
+/* START PHONE - RESPONSIVE RULES */
+
+@media all and (max-width:500px) {
+    div.wrapper {
+        background-color:royalblue;
+        width:90%;
+        margin:auto;
+    }
+
+}
+    
+/* END PHONE - RESPONSIVE RULES */

@@ -1,0 +1,40 @@
+/* STYLES FOR MY FORM */
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+form {
+    max-width: 580px;
+    margin: 20px auto;
+}
+
+fieldset {
+    padding: 10px;
+}
+
+label {
+    display:block;
+    margin-bottom: 10px;
+}
+
+form ul {
+    list-style-type:none;
+    margin-bottom: 10px;
+}
+
+.err {
+    display: block;
+    color: red;
+    font-style: italic;
+    /* padding-bottom: 10px; */
+}
+
+input, select, textarea {
+    margin-bottom: 10px;
+}
+
+.age {
+    margin-right: 5px;
+}
